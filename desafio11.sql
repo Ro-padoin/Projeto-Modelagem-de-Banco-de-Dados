@@ -7,7 +7,12 @@ SELECT
         WHEN cancao LIKE '%Silly' THEN REPLACE(cancao, 'Silly', 'Nice')
         WHEN cancao LIKE '%Circus' THEN REPLACE(cancao, 'Circus', 'Pull Request')
     END AS 'novo_nome'
-FROM SpotifyClone.cancoes
-GROUP BY nome_musica
-HAVING nome_musica <> novo_nome
-ORDER BY novo_nome, nome_musica;
+FROM
+    SpotifyClone.cancoes
+GROUP BY
+    nome_musica
+HAVING
+    nome_musica <> novo_nome
+ORDER BY
+    novo_nome,
+    nome_musica;

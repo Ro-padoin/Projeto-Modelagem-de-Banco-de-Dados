@@ -1,3 +1,6 @@
+
+#https://excalidraw.com/#json=cjLDBBy_omlkRlVpUUO2G,EZzpY36Imu39u4_nEmKWoA
+
 ### Termos e acordos
 
 Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
