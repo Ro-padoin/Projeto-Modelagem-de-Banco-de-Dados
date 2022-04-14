@@ -1,7 +1,8 @@
--- encontrar as duas musicas mais tocadas no momento e apresentar em duas colunas:
--- nome da cancao (Alias cancao);
--- quantidade de pessoas que ja escutaram a mesma (Alias reproducoes);
--- ordenar em ordem decrescente com base nas reproducoes ou em ordem alfabetica pelo nome da cancao.
+-- Informacoes sobre o faturamento da empresa, baseado nos planos de assinatura:
+-- exibir o menor valor de plano pago por uma pessoa usuaria (Alias faturamento_minimo);
+-- exibir o maior valor de plano pago por uma pessoa usuaria (Alias faturamento_maximo);
+-- exibir a media de valor de todos os planos pagos pelas pessoas usuarias (Alias faturamento_medio);
+-- exibir o valor total obtido com todos os planos das pessoas usuarias (Alias faturamento_total);
 
 SELECT
     ROUND(MIN(pla.valor), 2) AS faturamento_minimo,
