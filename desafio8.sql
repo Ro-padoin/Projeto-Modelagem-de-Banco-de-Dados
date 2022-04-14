@@ -1,3 +1,8 @@
+-- Relacao de albuns produzidos por um artista especifico (usaremos 'Bill):
+-- exibir nome do artista (Alias artista);
+-- exibir nome do album (Alias album);
+-- ordenados em ordem alfabetica pelo album.
+
 SELECT
     art.artista AS artista,
     alb.album AS album
