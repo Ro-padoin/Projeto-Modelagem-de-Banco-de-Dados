@@ -1,3 +1,8 @@
+-- Mostrar a relacao musicas tocadas por usuarios que possuem plano gratuito ou pessoal:
+-- exibir nome da cancao (Alias nome);
+-- exibir quantidade de pessoas que ja escutaram (Alias reproducoes);
+-- agrupados pelo nome da cancao e ordenados em ordem alfabetica.
+
 SELECT
     can.cancao AS nome,
     COUNT(his.cancao_id) AS reproducoes

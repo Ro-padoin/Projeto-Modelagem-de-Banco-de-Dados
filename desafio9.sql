@@ -1,3 +1,6 @@
+-- Exibir a quantidade de musicas presentes na lista de reproducao de um usuario ('Bill'):
+-- quantidade (Alias quantidade_musicas_no_historico);
+
 SELECT
     COUNT(his.usuario_id) AS quantidade_musicas_no_historico
 FROM

@@ -1,3 +1,15 @@
+-- BONUS
+
+-- Alterar nome de algumas musicas e ordenar em ordem alfabetica, seguindo os criterios:
+-- nome da musica original (Alias nome_musica);
+-- nome da musica alterado (Alias novo_nome);
+-- Criterios:
+-- trocar palavra final 'Streets' por 'Code Review';
+-- trocar palavra final 'Her Own' por 'Trybe';
+-- trocar palavra final 'Inner Fire' por 'Project';
+-- trocar palavra final 'Silly' por 'Nice';
+-- trocar palavra final 'Circus' por 'Pull Request'.
+
 SELECT
     cancao AS nome_musica,
     CASE
