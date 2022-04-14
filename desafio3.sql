@@ -1,3 +1,9 @@
+-- Criar uma querie que exiba apenas 3 colunas na sequencia:
+-- nome da pessoa usuaria (Alias usuario);
+-- quantidade musicas ouvidas pelo ususario (Alias qtde_musicas_ouvidas);
+-- soma total de minutos ouvidos pelo usuario  (Alias total_minutos).
+
+
 SELECT
     usu.usuario AS usuario,
     COUNT(his.usuario_id) AS qtde_musicas_ouvidas,
