@@ -6,7 +6,8 @@ Modelagem e Manipulacao de Banco de Dados</h1>
 
 ## Descricao do Projeto
 
-Projeto desenvolvido no bloco 21 - Modulo 3 - Desenvolvimento em BackEnd na turma 17 - Trybe. Conteudos aplicados foram - Funcoes SQL, JOIN's e Normalizacao.
+Projeto desenvolvido no bloco 21 - Modulo 3 - Desenvolvimento em BackEnd na turma 17 - Trybe. 
+Conteudo(s) aplicado(s): Funcoes SQL, JOIN's e Normalizacao.
 
 <br/>
 
